@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.container {
+    background-color: #fffff5;
+    width: 100%;
+    box-sizing: border-box; /*ajusta largura de forma automatica*/
+
+    margin-top: 50px;
+    padding: 20px;
+    /*border: 3px solid red; */
+    border-bottom: 10px solid black;
+}
+.titulo{
+    color: black;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 35px;
+}
+.topicos {
+    color: black;
+}
+
+.dados {
+    color: rgb(49, 49, 49);
+}
+
+#p-verde {
+    color: yellow;
+}
