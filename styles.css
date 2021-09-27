@@ -67,6 +67,15 @@ body{
     color: rgb(49, 49, 49);
 }
 
+.dados a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.dados a:hover{
+    color: rgb(179, 179, 179);
+}
+
 .curso {
     text-align: center;
     font-size: 18px;
