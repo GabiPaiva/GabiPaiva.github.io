@@ -3026,13 +3026,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: rgba(21, 93, 201, 0.87);
+  border-color: rgba(21, 93, 201, 0.87);
 }
 .btn-primary:hover {
   color: #000;
-  background-color: #c77556;
-  border-color: #c46d4c;
+  background-color: rgba(28, 74, 143, 0.87);
+  border-color: rgba(28, 74, 143, 0.87);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
@@ -11420,3 +11420,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.form-group{
+  padding-bottom: 1.5em;
+}
+
