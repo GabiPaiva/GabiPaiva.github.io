@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Praticando com JS</h2>
+    <p id="demo"></p>
+    <script>
+        class Endereco {
+            constructor (cep, logradouro, bairro, estado){
+                this.cep = cep;
+                this.logradouro = logradouro;
+                this.bairro = bairro;
+                this.estado = estado;
+
+            }
+            imprimir () {
+                return "cep: "+this.cep+"Bairro "+this.bairro;
+            }
+        }
+
+        class Pessoa{
+            constructor (nome, endereco){
+            this.nome = nome;
+            this.endereco = endereco;
+            }
+        
+            imprimir(){
+                return " Pessoa "+this.nome+" tem o cep "+this.endereco.cep+" com logradouro "+this.endereco.logradouro+" e bairro "+this.endereco.bairro+" do estado de "+this.endereco.estado;
+            }
+        }
+        let end = new Endereco("01001-000", "Praça da Sé", "Sé", "São Paulo") ;
+        let pessoa = new Pessoa("Gabriela", end)
+        document.getElementById("demo").innerHTML=pessoa.imprimir();
+
+    </script>
+</body>
+</html>
